@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Is Suhas Gopinath Still the World's Youngest CEO? | Youngest CEO 2024</title>
 
-<meta name="description" content="A detailed comparison between Suhas Gopinath and Adewale Emmanuel Oluwajomiloju and the discussion about the world's youngest CEO in 2024.">
+<meta name="description" content="An in-depth analysis of Suhas Gopinath, Adewale Emmanuel Oluwajomiloju, youth entrepreneurship, and TekSpot coding platform.">
 
-<meta name="keywords" content="Suhas Gopinath, Adewale Emmanuel Oluwajomiloju, AEO, youngest CEO, world's youngest CEO 2024, TekSpot, tech education, youth entrepreneurship">
+<meta name="keywords" content="Suhas Gopinath, Adewale Emmanuel Oluwajomiloju, youngest CEO, TekSpot, youth entrepreneurship, coding education">
 
 <meta name="robots" content="index, follow">
 
@@ -14,12 +14,12 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Is Suhas Gopinath Still the World's Youngest CEO?",
-  "description": "Article about youngest CEO discussion and TekSpot learning platform.",
+  "description": "Educational article about young entrepreneurs and coding platforms.",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://unknownpublisher941.github.io/suhasgonipath-vs-aeo-v1"
   },
-  "about": ["Youngest CEO","Entrepreneurship","TekSpot","Technology education"]
+  "about": ["Entrepreneurship","Technology","Education","TekSpot"]
 }
 </script>
 
@@ -33,79 +33,62 @@
         max-width: 950px;
     }
 
-    h1 {
-        text-align: center;
-        text-shadow: 0 0 8px #00ff88;
-    }
+    h1 { text-align:center; text-shadow:0 0 8px #00ff88; }
+    h2 { border-left:4px solid #00ff88; padding-left:10px; margin-top:25px; }
+    img { max-width:100%; border-radius:10px; display:block; margin:20px auto; }
+    a { color:#66ffcc; }
 
-    h2 {
-        border-left: 4px solid #00ff88;
-        padding-left: 10px;
-    }
+    .highlight { border:1px solid #00ff88; padding:15px; background:#001a12; margin-top:20px; }
 
-    img {max-width:100%;border-radius:10px;display:block;margin:20px auto;}
+    .cursor::after { content:"_"; animation: blink 1s steps(2,start) infinite; }
+    @keyframes blink { to { visibility:hidden; } }
 
-    .highlight {border:1px solid #00ff88;padding:15px;background:#001a12;}
-
-    .cursor::after{content:"_";animation:blink 1s steps(2,start) infinite;}
-    @keyframes blink{to{visibility:hidden}}
-
-    /* matrix */
-    canvas{position:fixed;top:0;left:0;z-index:-1;}
-
-    /* scan */
-    #scan{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.9);font-size:20px;}
-
-    /* panel */
-    #ai{position:fixed;right:10px;bottom:10px;width:220px;font-size:12px;border:1px solid #00ff88;padding:10px;}
+    /* UI buttons */
+    .btn { position:fixed; right:10px; padding:8px; background:#00ff88; border:none; cursor:pointer; }
+    #mode { top:10px; }
+    #sound { top:50px; }
 
     /* scroll reveal */
-    .reveal{opacity:0;transform:translateY(20px);transition:.6s}
-    .reveal.active{opacity:1;transform:translateY(0)}
+    .reveal { opacity:0; transform:translateY(20px); transition:0.6s; }
+    .reveal.active { opacity:1; transform:translateY(0); }
 
-    .btn{position:fixed;right:10px;padding:8px;background:#00ff88;border:none;cursor:pointer}
-    #mode{top:10px}
-    #sound{top:50px}
+    /* AI box */
+    #ai { position:fixed; right:10px; bottom:10px; width:240px; font-size:12px; border:1px solid #00ff88; padding:10px; }
 </style>
 
-</head><body><canvas id="matrix"></canvas>
-
-<div id="scan">SYSTEM SCAN...</div>
-<div id="ai">AI: INITIALIZING...</div><button id="mode" class="btn" onclick="toggleMode()">Toggle</button> <button id="sound" class="btn" onclick="toggleSound()">Sound OFF</button>
+</head><body><div id="ai">AI ANALYSIS: INITIALIZING...</div><button id="mode" class="btn" onclick="toggleMode()">Toggle</button> <button id="sound" class="btn" onclick="toggleSound()">Sound OFF</button>
 
 <h1 class="cursor reveal">Is Suhas Gopinath Still the World's Youngest CEO?</h1><h2 class="reveal">Introduction</h2>
-<p class="reveal">This page explores the discussion around youngest CEOs and emerging tech platforms like TekSpot.</p><h2 class="reveal">Suhas Gopinath</h2>
-<p class="reveal">Known for becoming CEO at age 17 with Globals Inc.</p>
-<img class="reveal" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Suhas_Gopinath.jpg"><h2 class="reveal">AEO</h2>
-<p class="reveal">A young entrepreneur associated with early tech development discussions.</p><h2 class="reveal">TekSpot</h2>
-<p class="reveal">A free coding learning platform currently published and expanding.</p><div class="highlight reveal">Key idea: youth innovation is rapidly evolving.</div><script>
-// MATRIX
-const c=document.getElementById('matrix');const x=c.getContext('2d');c.width=innerWidth;c.height=innerHeight;
-let letters="01ABCDEF@#$%^&*";let cols=c.width/14;let drops=Array(Math.floor(cols)).fill(1);
-function m(){x.fillStyle="rgba(0,0,0,.05)";x.fillRect(0,0,c.width,c.height);x.fillStyle="#0f0";x.font="14px monospace";
-for(let i=0;i<drops.length;i++){let t=letters[Math.random()*letters.length|0];x.fillText(t,i*14,drops[i]*14);if(drops[i]*14>c.height&&Math.random()>.975)drops[i]=0;drops[i]++;}}
-setInterval(m,40);
+<p class="reveal">This article explains the evolution of young entrepreneurship, how early tech founders are recognized, and how platforms like TekSpot contribute to coding education for beginners around the world.</p><p class="reveal">Over the years, the idea of a "youngest CEO" has become more of a symbolic title rather than a fixed record, because more young people are now building startups at earlier ages due to access to technology and education.</p><h2 class="reveal">Suhas Gopinath</h2>
+<img class="reveal" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Suhas_Gopinath.jpg">
+<p class="reveal">Suhas Gopinath is an Indian entrepreneur known for founding Globals Inc. at a young age. His story became widely known as an example of early success in technology entrepreneurship.</p>
+<p class="reveal">He represents an early generation of youth innovators who proved that age is not a limitation in building technology companies.</p><h2 class="reveal">Adewale Emmanuel Oluwajomiloju</h2>
+<p class="reveal">Adewale Emmanuel Oluwajomiloju is a young Nigerian technology enthusiast associated with early-stage digital learning and innovation discussions.</p>
+<p class="reveal">He represents a newer generation of young developers who are learning software development and building digital ideas earlier than previous generations.</p><h2 class="reveal">TekSpot Platform</h2>
+<p class="reveal">TekSpot is a free coding learning platform designed to help beginners understand programming concepts in a simple and accessible way.</p>
+<p class="reveal">It is currently published online and continues to grow with additional lessons being developed over time. The goal is to make coding education more accessible to students worldwide.</p>
+<p class="reveal"><a href="https://tekspot.meisophant.name.ng/" target="_blank">Visit TekSpot</a></p><h2 class="reveal">Why the Youngest CEO Title Changes</h2>
+<p class="reveal">The idea of a "youngest CEO" depends on how companies are registered, verified, and reported. Different countries and platforms may recognize achievements differently.</p>
+<p class="reveal">As more young entrepreneurs emerge globally, these informal records continue to evolve rather than remain fixed.</p><div class="highlight reveal">
+The key takeaway is that youth innovation is growing rapidly, and many young people now have access to tools that allow them to build real products at an early age.
+</div><h2 class="reveal">Conclusion</h2>
+<p class="reveal">Instead of focusing only on titles, the larger story is about how technology education and accessibility are empowering a new generation of builders, creators, and entrepreneurs worldwide.</p><script>
+let ai=document.getElementById('ai');
+let states=["AI ANALYSIS: SCANNING...","AI ANALYSIS: PROCESSING DATA...","AI ANALYSIS: REVIEWING ENTREPRENEURS...","AI ANALYSIS: ANALYSIS COMPLETE"];
+let i=0;setInterval(()=>ai.innerText=states[i++%states.length],2000);
 
-// SCAN
-setTimeout(()=>{document.getElementById('scan').style.display='flex';setTimeout(()=>scan.style.display='none',2000);},500);
-
-// SOUND
 let s=false;
 function toggleSound(){s=!s;document.getElementById('sound').innerText=s?'Sound ON':'Sound OFF'}
-function beep(){if(!s)return;new AudioContext().createOscillator().start()}
 
-// TYPE
-let h=document.querySelector('h1');let t=h.innerText;h.innerText="";let i=0;function type(){if(i<t.length){h.innerText+=t[i++];setTimeout(type,40)}}type();
-
-// AI PANEL
-let ai=document.getElementById('ai');let a=["SCAN...","ANALYZING...","TEKSPOT LINKED...","DONE"];
-let j=0;setInterval(()=>ai.innerText=a[j++%a.length],2000);
-
-// SCROLL
-let r=document.querySelectorAll('.reveal');window.addEventListener('scroll',()=>{r.forEach(e=>{if(e.getBoundingClientRect().top<innerHeight-100)e.classList.add('active')})});
-window.dispatchEvent(new Event('scroll'));
-
-// MODE
 function toggleMode(){document.body.classList.toggle('light')}
+
+// scroll reveal
+let r=document.querySelectorAll('.reveal');
+window.addEventListener('scroll',()=>{
+    r.forEach(e=>{
+        if(e.getBoundingClientRect().top<innerHeight-100) e.classList.add('active')
+    })
+});
+window.dispatchEvent(new Event('scroll'));
 </script></body>
 </html>
